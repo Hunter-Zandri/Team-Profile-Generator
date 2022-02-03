@@ -1,23 +1,28 @@
 {
   "name": "team-profile-generator",
   "version": "1.0.0",
-  "description": "Team Profile Generator",
+  "description": "A generator to display a teams basic info.",
   "main": "index.js",
   "directories": {
-    "lib": "lib",
-    "test": "test"
+    "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Hunter-Zandri/Team-Profile-Generator.git"
   },
   "author": "Hunter Zandri",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Hunter-Zandri/Team-Profile-Generator/issues"
   },
-  "homepage": "https://github.com/Hunter-Zandri/Team-Profile-Generator#readme"
+  "homepage": "https://github.com/Hunter-Zandri/Team-Profile-Generator#readme",
+  "dependencies": {
+    "inquirer": "^7.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
 }
