@@ -1,28 +1,31 @@
 {
-  "name": "team-profile-generator",
+  "name": "unit10hw",
   "version": "1.0.0",
-  "description": "A generator to display a teams basic info.",
-  "main": "index.js",
+  "description": "OOP and testing for week 10 homework",
+  "main": "app.js",
   "directories": {
-    "lib": "lib"
+    "lib": "lib",
+    "test": "test"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest --verbose test/*",
+    "start": "node index.js",
+    "reset": "node reset.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Hunter-Zandri/Team-Profile-Generator.git"
+    "url": "git+https://github.com/stevetrilogy/unit10hw.git"
   },
-  "author": "Hunter Zandri",
+  "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Hunter-Zandri/Team-Profile-Generator/issues"
+    "url": "https://github.com/stevetrilogy/unit10hw/issues"
   },
-  "homepage": "https://github.com/Hunter-Zandri/Team-Profile-Generator#readme",
+  "homepage": "https://github.com/stevetrilogy/unit10hw#readme",
   "dependencies": {
-    "inquirer": "^7.1.0"
+    "inquirer": "^6.3.1"
   },
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "^24.8.0"
   }
 }
